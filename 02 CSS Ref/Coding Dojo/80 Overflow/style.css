@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 200px;
+
+  /* Text over flow */
+  /* adds a scroll bar for overflowing text */
+  overflow: auto;
+}
+.header {
+  display: flex;
+  background-color: rgb(191, 187, 187);
+  justify-content: space-between;
+}

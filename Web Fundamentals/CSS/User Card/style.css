@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: cursive; */
+}
+.header {
+  height: 100px;
+  background-color: darkcyan;
+}
+.photo_outside {
+  height: 110px;
+  width: 110px;
+  border: 2px solid rgb(176, 176, 176);
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photo_inside {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+h1 {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: cursive;
+}
+.location {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: cursive;
+
+}
+img.marker {
+  height: 30px;
+  margin-right: 10px;
+}
+h4 {
+  margin-left: 50px;
+  font-family: sans-serif;
+}
+.edit {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.gear {
+  width: 25px;
+  margin-right: 10px;
+}
+a {
+  color: rgb(0, 100, 213);
+  font-family: sans-serif;
+}

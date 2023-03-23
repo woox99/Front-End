@@ -1,0 +1,11 @@
+/*  reset/normalizing will make our designs consistent from one browser to another*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* margin: 0 auto makes everything centered in the webpage */
+*{
+  margin: 0 auto;
+}

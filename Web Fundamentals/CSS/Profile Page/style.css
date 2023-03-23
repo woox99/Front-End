@@ -1,0 +1,243 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.nav {
+  height: 50px;
+  /* border: 1px solid black; */
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-left{
+  /* border: 1px solid black; */
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  margin-right: 50px;
+  justify-content: space-between;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+a.bold {
+  font-weight: bold;
+}
+.nav-right{
+  /* border: 1px solid black; */
+  width: 290px;
+  display: flex;
+  justify-content: flex-end;
+}
+button{
+  color: white;
+  background-color: darkcyan;  
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+
+
+.container {
+  border: 1px solid black;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
+.column-left {
+  /* border: 1px solid black; */
+  margin: 25px;
+  height: 900px;
+  width: 500px;
+}
+.column-right {
+  /* border: 1px solid black; */
+  margin: 25px;
+  height: 900px;
+  width: 290px;
+}
+
+/* USER ID CARD */
+.profile {
+  border: 1px solid black;
+  height: 425px;
+  margin-bottom: 25px;
+}
+.header {
+  height: 100px;
+  background-color: darkcyan;
+}
+.photo_outside {
+  height: 110px;
+  width: 110px;
+  border: 2px solid rgb(176, 176, 176);
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photo_inside {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+h1.user {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: cursive;
+}
+.location {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: cursive;
+}
+img.marker {
+  height: 30px;
+  margin-right: 10px;
+}
+.profile h4 {
+  margin-left: 50px;
+  font-family: sans-serif;
+}
+.edit {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.gear {
+  width: 25px;
+  margin-right: 10px;
+}
+a {
+  color: rgb(0, 100, 213);
+  font-family: sans-serif;
+}
+
+/* EDUCATION CARD */
+.education {
+  border: 1px solid black;
+  height: 200px;
+}
+.card-nav{
+  height: 40px;
+  background-color: rgb(88, 88, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.ed-body{
+  padding-left: 45px;
+  padding-top: 25px;
+}
+.ed-body .date{
+  margin-top: 10px;
+  margin-bottom: 25px;
+  color: grey;
+}
+
+
+
+/*REQUESTS CARD*/
+.requests {
+  border: 1px solid black;
+  height: 200px;
+  margin-bottom: 25px;
+}
+.card-nav-right{
+  height: 40px;
+  background-color: rgb(88, 88, 88);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.card-nav-right .circle-num1{
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.request-name{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.name-left{
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.request-name img{
+  height: 35px;
+  margin-right: 10px;
+}
+.name-right{
+  /* border: 1px solid black; */
+}
+.requests img{
+  border-radius: 50%;
+}
+
+/* CONNECTION CARD */
+.connections {
+  border: 1px solid black;
+  height: 350px;
+}
+.card-nav-right{
+  height: 40px;
+  background-color: rgb(88, 88, 88);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.card-nav-right .circle-num2{
+  height: 25px;
+  width: 70px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.connections .name-right{
+  visibility: hidden;
+}
+.connection-body{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* background-color: black; */
+}
+.connection-bottom{
+  border: 1px solid rgb(0, 0, 0);
+  height: 40px;
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+}
+.connection-bottom a{
+  margin-left: 10px;
+}
+.connections img{
+  border-radius: 50%;
+}

@@ -1,0 +1,42 @@
+/* This is external Styling */
+
+/* This is a Selector */
+body {
+  background-color: blanchedalmond;
+}
+
+/* This is a Selector */
+h1 {
+  background-color: rgb(184, 71, 184);
+}
+
+/* This is a class */
+.red {
+  background-color: red;
+}
+
+/* This is an ID */
+#green {
+  background-color: green;
+}
+
+/* Descendant Selector */
+/* This will change the p inside the .quote blue but not everything in .quote */
+.quote p {
+  color: blue;
+}
+
+/* This will change the <p class="quote"> element */
+p.quote {
+  color: brown;
+}
+
+/* Attribute Selectors */
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid rebeccapurple;
+}
+input[type="submit"] {
+  color: white;
+  background-color: rebeccapurple;
+}

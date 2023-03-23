@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Videos</title>
+  </head>
+
+  <body>
+
+    <!--addes video to website through path without controls-->
+    <video width="200" src="Linksdir/samplevideo.mp4">this video is currently unavailable</video>
+    <p>This video has no controls</p>
+
+    <video width="200" src="Linksdir/samplevideo.mp4" autoplay loop muted controls>this video is currently unavailable</video>
+    <p>This video should automatically start playing when the page is open
+    but it is not working</p>
+
+    <hr/>
+
+      <!--addes video to website through path WITH controls-->
+      <video width="200" src="Linksdir/samplevideo.mp4" controls>this video is currently unavailable
+      </video>
+      <p>This video has controls</p>
+
+      <!--same video with a thumnail from a different file-->
+      <video width="200" src="Linksdir/samplevideo.mp4" poster="Linksdir/thumbnail.jpg" controls></video>
+      <p>This is the same video with a thumbnail from a different file</p>
+
+      <!--this is an embedded youtube video-->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg"
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>This is an embedded youtube video</p>
+
+  </body>
+
+</html>

@@ -1,0 +1,23 @@
+/* Text alignment */
+p.left {
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: serif;
+}
+p.center {
+  text-align: center;
+  text-decoration: line-through;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+p.right{
+  text-align: right;
+  text-decoration: none;
+  font-weight: lighter;
+  font-family: monospace;
+}
+/* Spand can be used to break up a line of text with it's own element */
+span{
+  color: blue;
+}

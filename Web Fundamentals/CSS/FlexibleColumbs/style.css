@@ -1,0 +1,30 @@
+.col, .col-2, .col-3 {
+  background-color: rgb(25, 129, 129);
+  height: 50px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  color: white;
+  /* border: 1px solid black; */
+}
+
+.col {
+  flex: 1;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.col-2 {
+  flex: 2;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.col-3 {
+  flex: 3;
+  align-items: center;
+  padding-left: 20px;
+}
