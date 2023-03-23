@@ -18,3 +18,4 @@ else {
 // != not equal to
 // === equal to 
 // && both conidistions are met
+// || true if either condistion is true
