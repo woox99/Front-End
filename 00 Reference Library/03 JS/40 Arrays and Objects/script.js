@@ -33,10 +33,10 @@ console.log(sum);
 // OBJECTS
 // OBJECTS
 var taco1 = {
-    "tortilla": "flour",
-    "protein":  "chicken",
-    "toppings": ["lettuce", "cheese", "tomato"],
-    "tacoInfo": function() {
+    tortilla: "flour",
+    protein:  "chicken",
+    toppings: ["lettuce", "cheese", "tomato"],
+    tacoInfo: function() {
         console.log("Tortilla: " + taco1.tortilla);
         console.log("Protein:  " + taco1.protein);
         console.log("Toppings: " + taco1.toppings);
