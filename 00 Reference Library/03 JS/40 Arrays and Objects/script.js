@@ -29,5 +29,23 @@ for( var i=0; i<arr.length; i++){
 }
 console.log(sum);
 
+// __________________________________________________________________________________________________________________
 // OBJECTS
 // OBJECTS
+var taco1 = {
+    "tortilla": "flour",
+    "protein":  "chicken",
+    "toppings": ["lettuce", "cheese", "tomato"],
+    "tacoInfo": function() {
+        console.log("Tortilla: " + taco1.tortilla);
+        console.log("Protein:  " + taco1.protein);
+        console.log("Toppings: " + taco1.toppings);
+        // this does the same thing as taco1
+        console.log("Tortilla: " + this.tortilla);
+        console.log("Protein:  " + this.protein);
+        console.log("Toppings: " + this.toppings);
+    }
+}
+    
+// we can now still get all the delicious taco facts by
+taco1.tacoInfo(); // note tacoInfo still gets called like a function
