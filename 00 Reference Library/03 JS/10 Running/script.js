@@ -9,3 +9,6 @@
 // You can put code directing into this console and run it but not recommended for long code 
 
 //IS THERE A FASTER WAY TO RUN AND DEBUG CODE???
+// Install Nodejs then you can run in terminal
+// download CodeRunner extention VScode then you can run in output window in VScode
+
