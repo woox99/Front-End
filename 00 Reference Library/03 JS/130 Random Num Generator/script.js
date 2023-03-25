@@ -5,3 +5,4 @@ function rand(min, max) {
 }
 
 console.log(rand(1, 3));
+
