@@ -9,6 +9,9 @@ body {
 h1 {
   background-color: rgb(184, 71, 184);
 }
+#right{
+  text-align: right;
+}
 
 /* This is a class */
 .red {
