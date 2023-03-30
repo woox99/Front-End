@@ -1,5 +1,5 @@
-var displayDiv = document.querySelector("#display");
-var value=0;
+var displayDiv = document.querySelector(".display");
+var value="";
 var holder=0;
 var opper = "";
 var total=0;
@@ -13,20 +13,23 @@ var total=0;
 
     function press(single_value){
 
-            value = value * 10 + single_value;
+            value += single_value;
 
         displayDiv.innerText = value;
     }
 
     function setOP(opp){
+        value = parseFloat(value);
         opper = opp;
         holder = value;
-        value = 0;
+        value = "";
         // console.log(opp);
         
     }
 
     function calculate(){
+        value = parseFloat(value);
+        
         if( opper === "+"){
             total = holder + value;
         }
