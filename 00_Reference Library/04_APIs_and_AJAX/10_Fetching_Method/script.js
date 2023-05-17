@@ -15,7 +15,3 @@ async function getData() {
 }
     
 
-function addData(){
-    getData();
-}
-
