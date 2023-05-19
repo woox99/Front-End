@@ -1,10 +1,9 @@
-// openweathermap.org UNPAID API key
-// 88a57cfd20b03b1973f8489308c30c14
 
 // This function works but doesn't actually access the API because 
 // a paid subscription is required
+// enter API key where {API key}
 async function get_data() {
-  var response = await fetch("https://api.openweathermap.org/data/3.0/onecall?lat=21.3099&lon=157.8581&units=metric&appid=88a57cfd20b03b1973f8489308c30c14");
+  var response = await fetch("https://api.openweathermap.org/data/3.0/onecall?lat=21.3099&lon={API key}");
   var data = await response.json();
   console.log(data)
 }
