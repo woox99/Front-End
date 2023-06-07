@@ -1,0 +1,115 @@
+*{
+  /* border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+}
+.empty{
+  visibility: hidden;
+}
+
+/* Nav Bar */
+#nav{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(122, 158, 241);
+  color: white;
+}
+#nav h1{
+  margin-left: 100px;
+}
+#nav .empty{
+  width: 200px;
+}
+#nav #dallas{
+  margin-right: 100px;
+}
+
+#container{
+  margin: 0 auto;
+  width: 1000px;
+  height: 1000px;
+}
+
+/* Header */
+.header{
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+select{
+  height: 30px;
+  border: 2px solid black;
+}
+label{
+  margin-right: 25px;
+  margin-left: 710px;
+}
+hr{
+
+}
+
+/* CARDS */
+#card-container{
+  height: 360px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.card1, .card2, .card3, .card4{
+  height: 350px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(218, 218, 218);
+}
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.footer{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.high{
+  color: red;
+}
+.low{
+  color: rgb(75, 123, 236);
+}
+
+#alert{
+  width: 1000px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(218, 218, 218);
+  border: 2px solid black;
+}
+#alert img{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.alert-body{
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -50px;
+}
+#alert button{
+  margin-left: 60px;
+  margin-right: 25px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(117, 175, 250);
+  box-shadow: 2px 2px black;
+}
+
+
